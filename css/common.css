@@ -106,46 +106,58 @@ legend {
 	top:-30%;
 	
 }
-/* NAV */
-.pagination > li > a, .pagination > li > span {
-    color: white;
-    background-color: #C00101;
-    border: 1px solid black;
-}
-.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-    color: white;
-    background-color: #00468C;
-    border-color: black;
-}
-/* NAVEGACION CON TABS */
-.nav-tabs > li {
-    background-color: #efefef;
-    border: medium none;
-    border-radius: 0;
-    color:#fff;
-}
+.cien {
+  width: 100%; }
 
-.nav-tabs > li.active > a{
-    background-color: black;
-    color: #fff;
-}
-.tab-titulo{
-  color: black;
+.mt-2 {
+  margin-top: 2%; }
+
+.mt-5 {
+  margin-top: 5%; }
+
+#menu-principal .navbar {
   font-size: 12px;
+  min-height: 40px; }
+#menu-principal .nav li a {
+  padding: 10px 12px;
+  margin-bottom: -10px;
+  border-right: 1px solid #890505; }
+  #menu-principal .nav li a:not(:last-child) {
+    border-right: none; }
+#menu-principal .navbar-inverse {
+  padding-bottom: 0px;
+  background-image: linear-gradient(to bottom, #E70505 0%, #D40808 100%); }
+  #menu-principal .navbar-inverse .active a {
+    background-color: #910606 !important;
+    background-image: none; }
+  #menu-principal .navbar-inverse .dropdown-menu {
+    background-image: linear-gradient(to bottom, #E70505 0%, #D40808 100%);
+    font-size: 12px; }
+    #menu-principal .navbar-inverse .dropdown-menu li a {
+      color: white; }
+      #menu-principal .navbar-inverse .dropdown-menu li a:hover {
+        background-color: #E70505 !important; }
+    #menu-principal .navbar-inverse .dropdown-menu .divider {
+      background-color: #680303; }
+  #menu-principal .navbar-inverse .navbar-nav > li > a:hover, #menu-principal .navbar-inverse .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #C11516 !important; }
+  #menu-principal .navbar-inverse .dropdown-menu li a:hover {
+    background-color: #C11516 !important;
+    background-image: none; }
+  #menu-principal .navbar-inverse .dropdown:hover, #menu-principal .navbar-inverse .dropdown:focus, #menu-principal .navbar-inverse .dropdown:active, #menu-principal .navbar-inverse .dropdown:visited {
+    background-color: #C11516 !important; }
 
-}
-.nav-tabs > li > .tab-titulo:hover{
-  text-decoration: underline !important;
-}
+/*segundo menu*/
+.navbar-brand {
+  background-color: black !important;
+  color: white !important; }
 
-.nav-tabs > li.active > .tab-titulo:hover{
-  /* no puedo sacar el hover*/
-}
-.nav-tabs>.disabled>a,.disabled>a {
-    color: #999;
-    cursor: default;
-    border: none; /** add this for tabs/pills **/
-}
+.menu2 li {
+  display: inline-block;
+  float: right;
+  color: black;
+  margin: 15px 9px 0; }
+
 /*footers*/
 footer{
     background-color: #d4d4d4;
