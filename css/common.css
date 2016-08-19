@@ -97,3 +97,32 @@ legend {
     background-color: #00468C;
     border-color: black;
 }
+/* NAVEGACION CON TABS */
+.nav-tabs > li {
+    background-color: #efefef;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+
+.nav-tabs > li.active > a{
+    background-color: black;
+    color: #fff;
+}
+.tab-titulo{
+  color: black;
+  font-size: 12px;
+
+}
+.nav-tabs > li > .tab-titulo:hover{
+  text-decoration: underline !important;
+}
+
+.nav-tabs > li.active > .tab-titulo:hover{
+  /* no puedo sacar el hover*/
+}
+.nav-tabs>.disabled>a,.disabled>a {
+    color: #999;
+    cursor: default;
+    border: none; /** add this for tabs/pills **/
+}
