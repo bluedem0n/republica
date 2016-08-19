@@ -97,6 +97,9 @@
 .text-blue{
     color: #27365B;;
 }
+.text-strong{
+	font-width: 100px;
+}
 
 .a-none-decoration{
 	text-decoration: none;
