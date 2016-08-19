@@ -10,3 +10,47 @@
   padding-top: 1%;
 }
 
+/* SECCION ENLACES EXTERNOS */
+
+.btn-suscribete{
+    padding: 1px;
+    font-size: 12px;
+}
+.enlaces a{
+    font-size: 12px;
+    color: gray;
+}
+.redes-basic a{
+    margin-left: 3%;
+}
+.nav-icons{
+    padding: 1.7%;
+}
+.redes-basic {
+	display: inline;
+	font-size: 1.1em;
+}
+.twitter-basic {
+	color: #00ACED;
+}
+
+.google-basic {
+	color: #E75A4D;
+}
+.fb-basic {
+	color: #3B5998;
+}
+.youtube {
+	color: #C00101;
+	font-size: 18px;
+}
+.mensaje{
+	color: #FFBA08;
+}
+.rss{
+	color:#DA562C;
+}
+/* SEARCH */
+.form-control{
+    width: 100px;
+}
