@@ -135,3 +135,48 @@
 .columnistas .row .col-md-3{
     padding: 0 !important;
 }
+/*seccion de noticias 2*/
+.div-seccion-2{
+    border: 1px solid #D4D4D4;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin: 4% 0;
+}
+.div-seccion-2 div img{
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+.div-seccion-2 p{
+    padding: 4% 0;
+    margin: 0;
+}
+.div-seccion-2>h4{
+    color: #9C0000;
+    padding: 2% 0;
+}
+.sombra-futbolistas{
+    position: relative;
+    color: white !important;
+    text-shadow: 2px 2px black;
+    text-align: left;
+}
+.sombra-futbolistas div{
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(transparent, black);
+    background: -moz-linear-gradient(transparent, black);
+    background: -o-linear-gradient(transparent, black);
+    position: absolute;
+    top: 0;
+}
+.sombra-futbolistas h4{
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 3% 5%;
+}
+.publicidad-futbolistas{
+    margin: 4% 0;
+    width: 96%;
+}
