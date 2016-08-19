@@ -373,3 +373,77 @@ body {
 .inf-wapa a {
 	color:#D2186A;
 }
+/*Fotos destacadas*/
+.img-dest {
+	width:100%;
+	border:2px solid gray;
+}
+.fotos-destacadas {
+	padding-top:18%;
+	margin-top:8%;
+	margin-bottom:8%;
+	border-top:0.4em solid gray;
+	position:relative;
+}
+.tittle-dest {
+	padding: 2%;
+	position: absolute;
+	background-color: gray;
+	top: -10px;
+	left:23%;
+	font-size:1.5em;
+	font-family: "Oswald";
+	color: white;   
+}
+.destacado a {
+	color:black;
+}
+.img-dest {
+	border:4px solid gray;
+	margin-bottom:4%;
+}
+/*Especiales*/
+.especiales {
+	border-top:0.4em solid gray;
+	padding-top:15%;
+	margin-top:8%;
+	margin-bottom:8%;
+
+}
+.tittle-especiales{
+	padding: 2%;
+	width: 40%;
+	position: relative;
+	background-color: gray;
+	top: -70px;
+	left: 31%;
+	font-size: 1.5em;
+	font-family: "Oswald";
+	color: white;
+	text-align: center 
+}
+.bg-section-esp{
+	background-image: url("../image/img_especiales_aside.jpg");
+	background-size:100%;
+	background-position:center;
+	width:100%;
+	height:180px;
+
+}
+.bg-section-esp{
+	margin-bottom:5%;
+	position:relative;
+}
+.white-especiales {
+	position:absolute;
+	bottom:3%;
+	left:5%;
+	background-color: rgba(255,255,255,0.6);
+	width:90%;
+	text-align:center;
+	padding:2%;  
+}
+.white-especiales a{
+	color:black;
+	font-size:1.2em;
+}
