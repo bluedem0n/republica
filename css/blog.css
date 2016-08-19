@@ -1,0 +1,46 @@
+body {
+    font-family:'PT Sans';
+}
+a {
+    color:gray;
+}
+a:hover {
+    color:black;
+}
+h2 {
+    margin-bottom:3%;
+}
+h4:hover {
+    text-decoration:underline;
+}
+h2, h5 {
+    padding-left:1.8%;
+}
+h5 {
+    font-size:1.5em;
+    color: #768596;
+    font-family:'Oswald';
+}
+.caja-blog {
+    border:2px solid #E3E3E3;
+    padding:6%;
+    margin-top:10%;
+}
+.img-blog {
+    float:left;
+    border:2px solid white;
+    margin-right:9%;
+    
+}
+.text-blog {
+    text-align:center;
+    padding-top:8%;
+}
+.text-blog h4{
+    margin-top:1%;
+    margin-bottom:15%;
+}
+.gray-blog {
+    background-color:#E3E3E3;
+    padding: 5% 10% 10% 5%;
+}
