@@ -126,3 +126,22 @@ legend {
     cursor: default;
     border: none; /** add this for tabs/pills **/
 }
+/*footers*/
+footer{
+    background-color: #d4d4d4;
+    padding: 4% 0;
+}
+footer a{
+	color: #1f1f1f;
+}
+.footer-nav{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 0.9em;
+}
+.logo-footer{
+    padding-top: 30%;
+}
+footer div div .col-md-2{
+    font-size: 0.9em;
+}
