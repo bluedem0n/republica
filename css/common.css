@@ -1,3 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+body {
+  font-family: "PT Sans", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 16px; }
 .bg-gray{
     background-color: #F5F5F5;
 }
@@ -24,7 +37,10 @@
     margin-left: 3%;
 }
 .nav-icons{
-    padding: 1.7%;
+    padding: 0.5%;
+}
+.nav-icons a{
+    padding-left: 2%;
 }
 .redes-basic {
 	display: inline;
@@ -55,6 +71,9 @@
     width: 100px;
 }
 /* SECCION DE NAVEGACION */
+.logo{
+    padding-top: 10%;
+}
 fieldset {
     border: 1px solid #ddd;
     border-bottom: 4px solid #C00101;
@@ -77,8 +96,9 @@ legend {
     text-align: center;
 }
 .field-editorial{
-	position: relative;
+    position: relative;
     border: 1px solid #ddd;
+    height: 60px;
 }
 .autor img{
 	position: absolute;
