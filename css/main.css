@@ -104,3 +104,34 @@
 	color: #4078C0;
 	text-decoration: underline;
 }
+/*Columnistas*/
+.columnistas{
+    border-top: 4px solid #ba1414;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    background-color: gainsboro;
+}
+.columnistas div div h3{
+    background-color: #ba1414;
+    display: inline-block;
+    color: white;
+    padding:1%;
+    font-family: "Oswald";
+    font-size: 1.6em;
+    position: relative;
+    top: -35px;
+}
+.columnistas-principal img{
+    border: 5px solid white;
+}
+.columnistas-principal p{
+    font-size: 0.8em;
+    margin: 10% 0;
+}
+.columnistas-principal h6{
+    font-size: 0.9em;
+}
+.columnistas .row .col-md-3{
+    padding: 0 !important;
+}
