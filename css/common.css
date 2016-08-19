@@ -54,3 +54,46 @@
 .form-control{
     width: 100px;
 }
+/* SECCION DE NAVEGACION */
+fieldset {
+    border: 1px solid #ddd;
+    border-bottom: 4px solid #C00101;
+}
+
+fieldset legend {
+    background: red;
+    color: #fff;
+    width: auto;
+}
+
+legend {
+    display: block;
+    padding: 2px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    text-align: center;
+}
+.field-editorial{
+	position: relative;
+    border: 1px solid #ddd;
+}
+.autor img{
+	position: absolute;
+	right:0;
+	top:-30%;
+	
+}
+/* NAV */
+.pagination > li > a, .pagination > li > span {
+    color: white;
+    background-color: #C00101;
+    border: 1px solid black;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    color: white;
+    background-color: #00468C;
+    border-color: black;
+}
