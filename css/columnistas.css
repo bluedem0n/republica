@@ -1,0 +1,71 @@
+h4{
+	font-family: "Owald";
+	font-weight: bold;
+}
+.box-col-image{
+  border: 2px solid #efefef;
+  padding: 5% 3%;
+ margin-bottom: 9%;
+}
+.div-gray-rodrich{
+ background-color: #efefef;
+ padding: 5% 10% 10% 5%;
+ 
+}
+.box-col-image h4{
+ font-size: 1em;
+}
+.hover-col a:hover{
+	color: #23527;
+    text-decoration: underline;
+}
+.img-rodrich{
+ border: 5px solid white;
+ float: left;
+ margin: 1%;
+}
+
+/*columnistas en orden alfabético*/
+
+header{
+	width: 100%
+	overflow:hidden;
+	background:#c00101;
+	margin-bottom:20px;
+}
+.wrapper {
+	width:90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow:hidden;
+}
+
+header nav a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 1em;	
+}
+.wrapper .nav-alfa a:hover{
+	background:#eb4949;
+	border-radius: 20px;
+}
+.img-rodrich2{
+	border: 5px solid white;
+ 	float: left;
+ 	margin: 0%;
+}
+#text-rodrich{
+	margin-left: 2%;
+	font-size: 1em;
+}
+.text-bold {
+	color: #828596;
+}
+.div-gray-rodrich2 {
+    background-color: #efefef;
+    padding: 5% 10% 10% 5%;
+    margin-bottom: 4%;
+}
