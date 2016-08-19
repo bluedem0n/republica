@@ -224,6 +224,7 @@ legend {
 /*footers*/
 
 footer {
+    margin-top: 5%;
     background-color: #d4d4d4;
     padding: 4% 0;
 }
