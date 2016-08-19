@@ -2,6 +2,17 @@ h4{
 	font-family: "Owald";
 	font-weight: bold;
 }
+.titulo-col{
+	font-size: 3em;
+    font-weight: bold;
+    margin-top: 6%;
+}
+.ultimo-col{
+	font-family: "Oswald";
+	font-size: 2em;
+	color: #333;
+	margin-bottom: 4%;
+}
 .box-col-image{
   border: 2px solid #efefef;
   padding: 5% 3%;
@@ -23,6 +34,19 @@ h4{
  border: 5px solid white;
  float: left;
  margin: 1%;
+}
+.boton1 {
+  width: 18%;
+  text-align: center;
+  background-color: #c00101;
+  border-radius: 5px;
+  padding: 1%;
+  box-sizing: border-box;
+  margin: 0 auto!important;
+   
+}:white;
+.row .boton a:hover{
+	color:white;
 }
 
 /*columnistas en orden alfabético*/
@@ -50,7 +74,8 @@ header nav a{
 }
 .wrapper .nav-alfa a:hover{
 	background:#eb4949;
-	border-radius: 20px;
+	border-radius: 18px;
+    color: white;
 }
 .img-rodrich2{
 	border: 5px solid white;
@@ -68,4 +93,14 @@ header nav a{
     background-color: #efefef;
     padding: 5% 10% 10% 5%;
     margin-bottom: 4%;
+}
+@media (max-width : 800px){
+  
+  .boton1 {
+    width:50%;
+    margin:0 auto;
+ }
+	.boton{
+		position: relative;
+	}
 }
