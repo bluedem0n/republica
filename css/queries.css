@@ -128,3 +128,19 @@
 		top: -3%;
 	}
 }
+
+
+@media (max-width:990px) {
+    .footer-2{
+        display: inline-block;
+        background-color: dimgray;
+        color: #141414;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 5% 3%;
+    }
+    .footer-1{
+        display: none;
+    }
+}

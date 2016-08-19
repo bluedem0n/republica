@@ -221,28 +221,25 @@ legend {
 }
 
 
-/*footers*/
-
-footer {
-    margin-top: 5%;
+/*footer*/
+.footer-1{
     background-color: #d4d4d4;
     padding: 4% 0;
 }
-
-footer a {
+.footer-1 a{
     color: #1f1f1f;
 }
-
-.footer-nav {
+.footer-nav{
     text-align: center;
     padding-top: 3%;
     font-size: 0.9em;
 }
-
-.logo-footer {
+.logo-footer{
     padding-top: 30%;
 }
-
-footer div div .col-md-2 {
+footer div div .col-md-2{
     font-size: 0.9em;
+}
+.footer-2{
+    display: none;
 }
