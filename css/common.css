@@ -1,245 +1,235 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
 body {
-    font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0px;
+	margin-top: 0px;
 }
 
 h4 {
-    font-size: 20px;
+	font-size: 20px;
 }
 
 h5 {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 .bg-gray {
-    background-color: #F5F5F5;
+	background-color: #F5F5F5;
 }
 
 
 /* PUBLICIDAD SUPERIOR */
 
 .publicidad {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    padding-top: 1%;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 1%;
 }
 
 
 /* SECCION ENLACES EXTERNOS */
 
 .btn-suscribete {
-    padding: 1px;
-    font-size: 12px;
+	padding: 1px;
+	font-size: 12px;
 }
 
 .enlaces a {
-    font-size: 12px;
-    color: gray;
+	font-size: 12px;
+	color: gray;
 }
 
 .redes-basic a {
-    margin-left: 3%;
+	margin-left: 3%;
 }
-
-.nav-icons {
-    padding: 0.5%;
-}
-
-.nav-icons a {
-    padding-left: 2%;
-}
-
 .redes-basic {
-    display: inline;
-    font-size: 1.1em;
+	display: inline;
+	font-size: 1.1em;
 }
-
+.margin-icons{
+	margin: 0 2%;
+}
 .twitter-basic {
-    color: #00ACED;
+	color: #00ACED;
 }
-
+.margin-nav{
+	margin: 8px 0;
+}
 .google-basic {
-    color: #E75A4D;
+	color: #E75A4D;
 }
 
 .fb-basic {
-    color: #3B5998;
+	color: #3B5998;
 }
 
 .youtube {
-    color: #C00101;
-    font-size: 18px;
+	color: #C00101;
+	font-size: 18px;
 }
 
 .mensaje {
-    color: #FFBA08;
+	color: #FFBA08;
 }
 
 .rss {
-    color: #DA562C;
+	color: #DA562C;
 }
 
 
 /* BUSCADOR */
 
 .form-control {
-    width: 100px;
+	width: 100px;
 }
 
 
 /* SECCION DE NAVEGACION */
 
-.logo {
-    padding-top: 10%;
-}
-
 fieldset {
-    border: 1px solid #ddd;
-    border-bottom: 4px solid #C00101;
+	border: 1px solid #ddd;
+	border-bottom: 4px solid #C00101;
 }
 
 fieldset legend {
-    background: red;
-    color: #fff;
-    width: auto;
+	background: red;
+	color: #fff;
+	width: auto;
 }
 
 legend {
-    display: block;
-    padding: 2px;
-    margin-bottom: 20px;
-    font-size: 12px;
-    line-height: inherit;
-    color: #333;
-    border: 0;
-    text-align: center;
+	display: block;
+	padding: 2px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	line-height: inherit;
+	color: #333;
+	border: 0;
+	text-align: center;
 }
 
 .field-editorial {
-    position: relative;
-    border: 1px solid #ddd;
-    height: 60px;
+	position: relative;
+	border: 1px solid #ddd;
+	height: 60px;
 }
 
 .autor img {
-    position: absolute;
-    right: 0;
-    top: -30%;
+	position: absolute;
+	right: 0;
+	top: -30%;
 }
 
 .publicidad2 {
-    padding-bottom: 3%;
-    width: 100%;
+	padding-bottom: 3%;
+	width: 100%;
 }
 
 .mt-2 {
-    margin-top: 2%;
+	margin-top: 2%;
 }
 
 .mt-5 {
-    margin-top: 5%;
+	margin-top: 5%;
 }
 
 #menu .navbar {
-    font-size: 12px;
-    min-height: 40px;
+	font-size: 12px;
+	min-height: 40px;
 }
 
 #menu .nav li a {
-    padding: 10px 12px;
-    margin-bottom: -10px;
-    border-right: 1px solid #890505;
+	padding: 10px 9px;
+	margin-bottom: -10px;
+	border-right: 1px solid #890505;
 }
-
 #menu .nav li a:not(:last-child) {
-    border-right: none;
+	border-right: none;
 }
 
 #menu .navbar-inverse {
-    padding-bottom: 0px;
-    background-image: linear-gradient(to bottom, #E70505 0%, #D40808 100%);
+	padding-bottom: 0px;
+	background-image: linear-gradient(to bottom, #E70505 0%, #D40808 100%);
 }
 
 #menu .navbar-inverse .active a {
-    background-color: #910606 !important;
-    background-image: none;
+	background-color: #910606 !important;
+	background-image: none;
 }
 
 #menu .navbar-inverse .dropdown-menu {
-    background-image: linear-gradient(to bottom, #E70505 0%, #D40808 100%);
-    font-size: 12px;
+	background-image: linear-gradient(to bottom, #E70505 0%, #D40808 100%);
+	font-size: 12px;
 }
 
 #menu .navbar-inverse .dropdown-menu li a {
-    color: white;
+	color: white;
 }
 
 #menu .navbar-inverse .dropdown-menu li a:hover {
-    background-color: #E70505 
+	background-color: #E70505
 }
 
 #menu .navbar-inverse .dropdown-menu .divider {
-    background-color: #680303;
+	background-color: #680303;
 }
 
 #menu .navbar-inverse .navbar-nav > li > a:hover, #menu .navbar-inverse .navbar-inverse .navbar-nav > li > a:focus {
-    background-color: #C11516 
+	background-color: #C11516
 }
 
 #menu .navbar-inverse .dropdown-menu li a:hover {
-    background-color: #C11516 
-    background-image: none;
+	background-color: #C11516
+	background-image: none;
 }
 
 #menu .navbar-inverse .dropdown:hover, #menu .navbar-inverse .dropdown:focus, #menu .navbar-inverse .dropdown:active, #menu .navbar-inverse .dropdown:visited {
-    background-color: #C11516 
+	background-color: #C11516
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: white;
-    font-style: bold;
+	color: white;
+	font-style: bold;
 }
 
 /*segundo menu*/
 
 .navbar-brand {
-    background-color: black !important;
-    color: white !important;
+	background-color: black !important;
+	color: white !important;
 }
 
 .menu2 li {
-    display: inline-block;
-    float: right;
-    color: black;
-    margin: 15px 9px 0;
+	display: inline-block;
+	float: right;
+	color: black;
+	margin: 15px 9px 0;
 }
 
 
 /*footer*/
 .footer-1{
-    background-color: #d4d4d4;
-    padding: 4% 0;
+	background-color: #d4d4d4;
+	padding: 4% 0;
 }
 .footer-1 a{
-    color: #1f1f1f;
+	color: #1f1f1f;
 }
 .footer-nav{
-    text-align: center;
-    padding-top: 3%;
-    font-size: 0.9em;
+	text-align: center;
+	padding-top: 3%;
+	font-size: 0.9em;
 }
 .logo-footer{
-    padding-top: 30%;
+	padding-top: 30%;
 }
 footer div div .col-md-2{
-    font-size: 0.9em;
+	font-size: 0.9em;
 }
 .footer-2{
-    display: none;
+	display: none;
 }

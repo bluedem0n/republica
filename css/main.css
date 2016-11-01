@@ -5,7 +5,7 @@ body {
 	font-family:'PT Sans';
 }
 .primera-seccion h1 a {
-	font-size: 1.3em;
+	font-size: 1.5em;
 	font-weight: bold;
 	color: black;
 	display: inline-block;
@@ -100,7 +100,7 @@ body {
 	font-size: 0.6em;
 }
 .texto h2 a{
-    color:white;
+	color:white;
 }
 .texto h2 a:hover {
 	color: #4078C0;
@@ -108,79 +108,79 @@ body {
 }
 /*Columnistas*/
 .columnistas{
-    border-top: 4px solid #ba1414;
-    margin-top: 30px;
-    text-align: center;
-    position: relative;
-    background-color: gainsboro;
+	border-top: 4px solid #ba1414;
+	margin-top: 30px;
+	text-align: center;
+	position: relative;
+	background-color: gainsboro;
 }
 .columnistas div div h3{
-    background-color: #ba1414;
-    display: inline-block;
-    color: white;
-    padding:1%;
-    font-family: "Oswald";
-    font-size: 1.6em;
-    position: relative;
-    top: -35px;
+	background-color: #ba1414;
+	display: inline-block;
+	color: white;
+	padding:1%;
+	font-family: "Oswald";
+	font-size: 1.6em;
+	position: relative;
+	top: -35px;
 }
 .columnistas-principal img{
-    border: 5px solid white;
+	border: 5px solid white;
 }
 .columnistas-principal p{
-    font-size: 0.8em;
-    margin: 10% 0;
+	font-size: 0.8em;
+	margin: 10% 0;
 }
 .columnistas-principal h6{
-    font-size: 0.9em;
+	font-size: 0.9em;
 }
 .columnistas .row .col-md-3{
-    padding: 0 !important;
+	padding: 0 !important;
 }
 /*seccion de noticias 2*/
 .div-seccion-2{
-    border: 1px solid #D4D4D4;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    margin: 4% 0;
+	border: 1px solid #D4D4D4;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	margin: 4% 0;
 }
 .div-seccion-2 div img{
-    width: 100%;
-    height: auto;
-    text-align: left;
+	width: 100%;
+	height: auto;
+	text-align: left;
 }
 .div-seccion-2 p{
-    padding: 4% 0;
-    margin: 0;
+	padding: 4% 0;
+	margin: 0;
 }
 .div-seccion-2>h4{
-    color: #9C0000;
-    padding: 2% 0;
+	color: #9C0000;
+	padding: 2% 0;
 }
 .sombra-futbolistas{
-    position: relative;
-    color: white !important;
-    text-shadow: 2px 2px black;
-    text-align: left;
+	position: relative;
+	color: white !important;
+	text-shadow: 2px 2px black;
+	text-align: left;
 }
 .sombra-futbolistas div{
-    width: 100%;
-    height: 100%;
-    background: -webkit-linear-gradient(transparent, black);
-    background: -moz-linear-gradient(transparent, black);
-    background: -o-linear-gradient(transparent, black);
-    position: absolute;
-    top: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(transparent, black);
+	background: -moz-linear-gradient(transparent, black);
+	background: -o-linear-gradient(transparent, black);
+	position: absolute;
+	top: 0;
 }
 .sombra-futbolistas h4{
-    position: absolute;
-    bottom: 0;
-    margin: 0 0 3% 5%;
+	position: absolute;
+	bottom: 0;
+	margin: 0 0 3% 5%;
 }
 .publicidad-futbolistas{
-    margin: 4% 0;
-    width: 96%;
+	margin: 4% 0;
+	width: 96%;
 }
 /*Ultimas Noticias*/
 .titulo-ultimas-noticias {
@@ -189,7 +189,6 @@ body {
 }
 .emma {
 	width: 100%;
-	height: 120px;
 }
 .ultimas-noticias {
 	padding-top: 4%;
@@ -393,7 +392,7 @@ body {
 	left:23%;
 	font-size:1.5em;
 	font-family: "Oswald";
-	color: white;   
+	color: white;
 }
 .destacado a {
 	color:black;
@@ -420,7 +419,7 @@ body {
 	font-size: 1.5em;
 	font-family: "Oswald";
 	color: white;
-	text-align: center 
+	text-align: center
 }
 .bg-section-esp{
 	background-image: url("../image/img_especiales_aside.jpg");
@@ -441,7 +440,7 @@ body {
 	background-color: rgba(255,255,255,0.6);
 	width:90%;
 	text-align:center;
-	padding:2%;  
+	padding:2%;
 }
 .white-especiales a{
 	color:black;
@@ -630,7 +629,7 @@ body {
 	width: 90%;
 }
 
-/*Infografia*/ 
+/*Infografia*/
 
 .info {
 	border-top: 6px solid #517892;
@@ -691,4 +690,9 @@ body {
 
 .top {
 	top: -2%;
+}
+@media screen and (max-width : 430px){
+	.primera-seccion h1 a {
+	font-size: 1.2em;
+	}
 }
