@@ -189,6 +189,7 @@ body {
 }
 .emma {
 	width: 100%;
+	height: auto;
 }
 .ultimas-noticias {
 	padding-top: 4%;
@@ -693,6 +694,6 @@ body {
 }
 @media screen and (max-width : 430px){
 	.primera-seccion h1 a {
-	font-size: 1.2em;
+	font-size: 1em;
 	}
 }
